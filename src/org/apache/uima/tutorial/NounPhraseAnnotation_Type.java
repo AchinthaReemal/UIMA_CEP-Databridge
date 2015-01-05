@@ -10,7 +10,6 @@ import org.apache.uima.cas.FeatureStructure;
 import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 import org.apache.uima.jcas.tcas.Annotation_Type;
-
 /** Annotation to represent Noun Phrase sequences in a body of text
  * Updated by JCasGen Mon Jan 05 13:52:00 IST 2015
  * @generated */

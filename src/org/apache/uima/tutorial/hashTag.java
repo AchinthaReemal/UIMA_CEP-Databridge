@@ -9,7 +9,6 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 import org.apache.uima.jcas.tcas.Annotation;
 
-
 /** 
  * Updated by JCasGen Mon Jan 05 13:55:27 IST 2015
  * XML source: /home/achintha/git/AggregateAETesting/RoomNumberAnnotator/desc/HashTagDescriptor.xml

@@ -9,7 +9,6 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 import org.apache.uima.jcas.tcas.Annotation;
 
-
 /** Annotation to represent Noun Phrase sequences in a body of text
  * Updated by JCasGen Mon Jan 05 13:52:00 IST 2015
  * XML source: /home/achintha/git/AggregateAETesting/RoomNumberAnnotator/desc/NounPhraseTestor.xml

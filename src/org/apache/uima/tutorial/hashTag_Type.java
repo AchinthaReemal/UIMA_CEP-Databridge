@@ -13,9 +13,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
-/** 
- * Updated by JCasGen Mon Jan 05 13:55:27 IST 2015
- * @generated */
+
 public class hashTag_Type extends Annotation_Type {
   /** @generated 
    * @return the generator for this type
