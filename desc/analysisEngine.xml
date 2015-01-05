@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+    <primitive>false</primitive>
+    <delegateAnalysisEngineSpecifiers>
+        <delegateAnalysisEngine key="NounPhraseAnnotatorDescriptor">
+            <import location="NounPhraseAnnotatorDescriptor.xml"/>
+        </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="HashTagDescriptor">
+      <import location="HashTagDescriptor.xml"/>
+    </delegateAnalysisEngine>
+  </delegateAnalysisEngineSpecifiers>
+    <analysisEngineMetaData>
+        <name>UIMA demonstration</name>
+        <version>1.0</version>
+        <configurationParameters searchStrategy="language_fallback"/>
+    <configurationParameterSettings/>
+    <flowConstraints>
+            <fixedFlow>
+                <node>NounPhraseAnnotatorDescriptor</node>
+            		<node>HashTagDescriptor</node>
+      </fixedFlow>
+        </flowConstraints>
+        <typePriorities/>
+    <fsIndexCollection/>
+    <capabilities/>
+    <operationalProperties>
+            <modifiesCas>true</modifiesCas>
+            <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+            <outputsNewCASes>false</outputsNewCASes>
+        </operationalProperties>
+    </analysisEngineMetaData>
+    <resourceManagerConfiguration/>
+</analysisEngineDescription>
